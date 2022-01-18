@@ -1,0 +1,5 @@
+print('What is your first name?')
+first = input().capitalize()
+print('What is your last name?')
+last = input().capitalize()
+print('Your name is ' + last + ', ' + first + ' ' + last + '.')
