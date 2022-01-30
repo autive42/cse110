@@ -5,7 +5,7 @@ adult = int(input("Enter the number of adults: "))
 tax_rate = float(input("Enter the sales tax rate as a decimal: "))
 
 subtotal = kids_meal * child + meal * adult
-print(f"\nSubtotal: ${subtotal}")
+print(f"\nSubtotal: ${subtotal:.2f}")
 
 tax = subtotal * tax_rate
 total = tax + subtotal
@@ -15,6 +15,6 @@ payment = float(input("\nEnter payment amount: $"))
 change = payment - total
 
 if payment < total:
-    print("Insufficient Funds")
+    print("\nInsufficient Funds")
 else:
-    print(f"Your change is ${change:.2f}")
+    print(f"\nYour change is ${change:.2f}")
