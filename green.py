@@ -17,3 +17,4 @@ for h in range(0, 64):
         pixels_original[w, h] = (235, 64, 52)
 
 image_original.save("images/out.jpg")
+image_original.show()
